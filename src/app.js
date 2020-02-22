@@ -38,7 +38,7 @@ app.get('/about',(req,res)=>{
 app.get('/help',(req, res) => {
     res.render('help',{
       title : 'HELP-YOURSELF-FIRST',
-      done :'I feel so powerful inside me ,then NOTHING will stop me,I WAKE UP AGAIN ',
+      done :'The HELP PAGE ',
       name: 'BOUZID SOUAD MEAD'
     })
 })
